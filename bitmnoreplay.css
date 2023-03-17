@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  background-image: url("bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top; 
+  background-attachment: fixed;
+  /*993px 1365px
+ 960px 740px
+    */
+}
+code {
+  background: #ccc;
+  padding: 0px;
+}
+pre code {
+  display: block;
+}
+
+@media print {
+
+  @page {
+          margin: 0in 0.44in 0.2in 0.44in;
+          size: letter landscape;
+    @top-right {
+      content: counter(page);
+    }
+  }
+  @page :first {
+    @top-right {
+      content: "";
+    }
+  }
+}
