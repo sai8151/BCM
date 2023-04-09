@@ -7,3 +7,8 @@ tools must be installed manually:
   
 create csv file in given formate:
   Timestamp |	Username(email) | university number | sem | name | Mobile number | email
+<html>
+  <h1>To setup mpack</h1>
+  <h4>sudo apt-get update</h4>
+  <h4>sudo apt-get upgrade</h4>
+  
